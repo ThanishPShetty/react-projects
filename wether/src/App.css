@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.nav{
+  background-color: black;
+  color: aqua;
+  /* margin-top: 0px; */
+  height:70px;
+  display: flex;
+  justify-content: center;  /* Horizontally center */
+  align-items: center;  /* Vertically center */
+}
+
+.content{
+  background-color: gold;
+  display: flex;
+  justify-content: center;  /* Horizontally center */
+  align-items: center;
+  height: 600px;
+}
+
+.footer{
+  background-color: cyan;
+  display: flex;
+  justify-content: center;  /* Horizontally center */
+  align-items: center;
+  height: 77px;
+}

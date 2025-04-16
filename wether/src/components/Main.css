@@ -1,0 +1,33 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sidebar-search {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .menu-list {
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .highlighted {
+    background-color: #e3f2fd !important;
+    font-weight: bold;
+  }
+  

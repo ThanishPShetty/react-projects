@@ -1,0 +1,54 @@
+.todo-container{
+    width: 600px;
+    height: 500px;
+    margin-left: 455px;
+    margin-top: 20px;
+    padding-top: 3px;
+
+}
+.todo{
+    display: flex  ;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   border: solid red 2px;
+   border-radius: 5px;
+   background-color: aliceblue;
+   margin-bottom: 5px;
+}
+
+.todo p {
+    padding-left: 20px;
+    padding-right: 30px;
+    background-color: aliceblue;
+}
+
+.actions{
+    padding-left: 300px;
+    width: auto;
+    padding-top: 15px;
+    background-color: aliceblue;
+}
+
+.actions input{
+    width: 70px;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+.actions button{
+    cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px #999;
+}
+
+.actcions button:hover {background-color: #3e8e41}
+
+.actions button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
